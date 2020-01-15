@@ -1,6 +1,6 @@
 # yolov3-sort-cpp
 
-## download yolo model in models
+## download yolo weight in models
 ```
   cd models
   wget https://pjreddie.com/media/files/yolov3.weights 
