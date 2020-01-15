@@ -1,13 +1,13 @@
 # yolov3-sort-cpp
 
-# download yolo model in models
+## download yolo model in models
   cd models
 
   wget https://pjreddie.com/media/files/yolov3.weights 
 
-# cmake
+## cmake
 
-  mkdir build & cd build
+ > mkdir build & cd build
 
   cmake ..
 
