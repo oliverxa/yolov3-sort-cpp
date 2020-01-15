@@ -1,16 +1,16 @@
 # yolov3-sort-cpp
 
 # download yolo model in models
-cd models
+  cd models
 
-wget https://pjreddie.com/media/files/yolov3.weights 
+  wget https://pjreddie.com/media/files/yolov3.weights 
 
 # cmake
 
-mkdir build & cd build
+  mkdir build & cd build
 
-cmake ..
+  cmake ..
 
-make -j4
+  make -j4
 
-./yolo-sort-app ../videos/<your test video>
+  ./yolo-sort-app ../videos/<your test video>
