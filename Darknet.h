@@ -1,12 +1,15 @@
 /*******************************************************************************
-* 
+*
 * Author : walktree
 * Email  : walktree@gmail.com
 *
-* A Libtorch implementation of the YOLO v3 object detection algorithm, written with pure C++. 
+* A Libtorch implementation of the YOLO v3 object detection algorithm, written with pure C++.
 * It's fast, easy to be integrated to your production, and supports CPU and GPU computation. Enjoy ~
 *
 *******************************************************************************/
+#ifndef DARKNET_H
+#define DARKNET_H
+
 
 #include <torch/torch.h>
 #include <string>
@@ -42,7 +45,7 @@ private:
 
 	vector<torch::nn::Sequential> module_list;
 
-    // load YOLOv3 
+    // load YOLOv3
     void load_cfg(const char *cfg_file);
 
     void create_modules();
@@ -51,3 +54,5 @@ private:
 
     string get_string_from_cfg(map<string, string> block, string key, string default_value);
 };
+
+#endif // DARKNET_H
