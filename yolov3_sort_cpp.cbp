@@ -32,7 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="SORT.cpp" />
+		<Unit filename="SORT.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="yolov3.cpp" />
+		<Unit filename="yolov3.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
