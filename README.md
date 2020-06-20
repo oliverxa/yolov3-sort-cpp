@@ -1,5 +1,9 @@
 # yolov3-sort-cpp
 
+## 
+```
+libtorch version == 1.3.1
+```
 ## download yolo weight in models
 ```
   cd models
